@@ -1,0 +1,20 @@
+{
+  "name": "siyabonga-mthethwa-222-memory-game-in-vanilla-js-javascript",
+  "version": "1.0.0",
+  "description": "Memory game project",
+  "main": "src/dom.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jasmine"
+  },
+  "author": "Siyabinga Mthethwa",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "jsdom": "^24.0.0"
+  },
+  "dependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}

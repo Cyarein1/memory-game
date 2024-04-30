@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./css/memory_game.css" />
+  </head>
+  <body>
+    <h1>Memory Game</h1>
+    <div id="timerAndFlipsContainer">
+      <div id="flips" class="hidden">Flips: 0</div>
+      <div id="timer" class="hidden">0:00</div>
+    </div>
+    </div>
+    <div id="gridSizeContainer">
+      <label for="gridSize">Select Grid Size:</label>
+      <select id="gridSize" name="gridSize">
+        <option value="2x2">2x2</option>
+        <option value="2x3">2x3</option>
+        <option value="2x4">2x4</option>
+        <option value="2x5">2x5</option>
+        <option value="3x4">3x4</option>
+        <option value="2x7">2x7</option>
+        <option value="4x4">4x4</option>
+      </select>
+    </div>
+    <div id="memory-game-container">
+      <p id="message" class="hidden"></p>
+      <div id="pictures-container"></div>
+      <button id="shuffleButton">Start Game!</button>
+    </div>
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
